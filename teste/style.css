@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Roboto+Mono:wght@200&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+
+.start{
+    color: #fff;
+    background-color: #0D6853;
+    height: 60vh;
+    padding: 05%;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.start h2{
+    width: 700px;
+    text-align: justify;
+    font-size: 20pt;
+    font-weight: 700;
+}
+.start img{
+    height: 350px;
+    position: absolute;
+    margin-top: -288px;
+    margin-left: 600px;
+}
+
+main{
+    width: 100%;
+    padding: 100px;
+    padding-top: 40px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.cardds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cardd{
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+}
+.cardd img{
+    width: 80px;
+}
+
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.history .text{
+    width: 600px;
+    margin-left: 50px;
+}
+
+.history img{
+    width: 500px;
+}
